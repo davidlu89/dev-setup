@@ -136,6 +136,9 @@ brew link libxslt --force
 brew install heroku-toolbelt
 heroku update
 
+# Install some scientific tools
+brew install fftw
+
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
@@ -148,17 +151,20 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
 brew cask install --appdir="/Applications" macdown
-
-# Misc casks
+brew cask install --appdir="/Applications" unrarx
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" opera
+
+# Misc casks
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
 brew cask install --appdir="/Applications" gimp
 brew cask install --appdir="/Applications" inkscape
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" plex-media-player
+brew cask install --appdir="/Applications" mendeley
 
 #Remove comment to install LaTeX distribution MacTeX
 brew cask install --appdir="/Applications" mactex
