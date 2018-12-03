@@ -28,4 +28,7 @@ npm install -g grunt-cli
 npm install -g jshint
 npm install -g less
 
-#gem install jekyll
+rbenv install 2.3.7
+rbenv global 2.3.7
+rbenv versions
+gem install bundler jekyll

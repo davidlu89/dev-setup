@@ -64,6 +64,8 @@ pip install bokeh
 pip install Flask
 pip install sqlalchemy
 pip install mysql-python
+pip install --upgrade tensorflow
+pip install pyqtgraph
 
 ###############################################################################
 # Python 3 Virtual Enviroment                                                 #
@@ -92,6 +94,9 @@ pip install Flask
 pip install sqlalchemy
 #pip install mysql-python  # Python 2 only, use mysqlclient instead
 pip install mysqlclient
+# pip install --upgrade tensorflow
+python3 -m pip install --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-0.12.0-py3-none-any.whl
+pip install pyqtgraph
 
 ###############################################################################
 # Install IPython Profile
