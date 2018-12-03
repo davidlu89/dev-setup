@@ -47,15 +47,19 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 2: General Apps and Tools
 
-|  |  |  |  |
-| ----- |-----| -----|-----|
-| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sublime.png" alt="drawing" width="50"/> [Sublime Text](#sublime-text) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/atom.png" alt="drawing" width="60"/> [Atom](#atom)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vim.png" alt="drawing" width="50"/> [Vim](#vim) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/iTerm2.png" alt="drawing" width="50"/> [iTerm2](#iterm2) |
-|<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/git.png" alt="drawing" width="50"/> [Git](#git) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/virtualbox.png" alt="drawing" width="50"/> [VirtualBox](#virtualbox) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/docker.png" alt="drawing" width="50"/> [Docker](#docker) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vagrant.png" alt="drawing" width="50"/> [Vagrant](#vagrant) |
-|<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/homebrew.png" alt="drawing" width="50"/> [Homebrew](#homebrew)| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/python.png" alt="drawing" width="50"/> [Python](#python) |<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/ruby.png" alt="drawing" width="50"/> [Ruby](#ruby) |
+| Editor | Languages | Tools |
+| ----- |-----| -----|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sublime.png" alt="drawing" width="50"/> [Sublime Text](#sublime-text) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/python.png" alt="drawing" width="50"/> [Python](#python) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/iTerm2.png" alt="drawing" width="50"/> [iTerm2](#iterm2) |
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/atom.png" alt="drawing" width="60"/> [Atom](#atom) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/ruby.png" alt="drawing" width="50"/> [Ruby](#ruby) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/git.png" alt="drawing" width="50"/> [Git](#git) |
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vim.png" alt="drawing" width="50"/> [Vim](#vim) | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/virtualbox.png" alt="drawing" width="50"/> [VirtualBox](#virtualbox) 
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/docker.png" alt="drawing" width="50"/> [Docker](#docker) |
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vagrant.png" alt="drawing" width="50"/> [Vagrant](#vagrant) |
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/homebrew.png" alt="drawing" width="50"/> [Homebrew](#homebrew) |
+
 
 ## Section 3: Python Data Analysis
 
-| Scientific | Machine Learning | Visualizations | Framework |
+| Library | Data Science | Visualizations | Web |
 | ----- |-----| -----| -----|
 | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/jupyter.png" alt="drawing" width="50"/> [Jupyter Notebook](#jupyter-notebook) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sklearn.png" alt="drawing" width="60"/> [Scikit-Learn](#sklearn)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/matplotlib.png" alt="drawing" width="50"/> [Matplotlib](#matplotlib)| <img src="https://github.com/donnemartin/dev-setup-resources/blob/master/res/flask.png" alt="drawing" width="50"/> [Flask](#flask)|
 | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/numpy.png" alt="drawing" width="60"/> [Numpy](#numpy) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/tensorflow.png" alt="drawing" width="50"/> [Tensorflow](#tensorflow)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/seaborn.png" alt="drawing" width="50"/> [Seaborn](#seaborn)|
