@@ -7,14 +7,13 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 * **MacOS updates and Xcode Command Line Tools**
 * **MacOS defaults** geared towards developers
-* **Developer tools**: Vim, bash, tab completion, curl, git, GNU core utils, Python, Ruby, etc
+* **Developer tools**: Vim, bash, tab completion, curl, git, GNU core utils, Python, Ruby, Java, etc
 * **Developer apps**: iTerm2, Sublime Text, Atom, VirtualBox, Vagrant, Docker, Chrome, etc
 * **Python data analysis**: IPython Notebook, NumPy, Pandas, Scikit-Learn, Matplotlib, etc
 * **Big Data platforms**: Spark (with IPython Notebook integration) and MapReduce
 * **Cloud services**: Amazon Web Services (Boto, AWS CLI, S3cmd, etc) and Heroku
 * **Common data storages**: MySQL, PostgreSQL, MongoDB, Redis, and Elasticsearch
 * **Javascript web development**: Node.js, JSHint, Less, Jekyll
-* **Android development**: Java, Android SDK, Android Studio, IntelliJ IDEA
 
 **`dev-setup` is designed to be an organized *reference* of various developer tools and environments, in order to start every new machine with the same settings.**
 
@@ -26,17 +25,17 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 1: Installation
 
-**Scripts tested on OS X 10.10 Yosemite and 10.11 El Capitan.**
+**Scripts tested on MacOS 10.13 High Sierra and 10.14 Mojave.**
 
 * [Single Setup Script](#single-setup-script)
 * [bootstrap.sh script](#bootstrapsh-script)
     * Syncs dev-setup to your local home directory `~`
-* [osxprep.sh script](#osxprepsh-script)
-    * Updates OS X and installs Xcode command line tools
+* [macosprep.sh script](#macosprepsh-script)
+    * Updates MacOS and installs Xcode command line tools
 * [brew.sh script](#brewsh-script)
     * Installs common Homebrew formulae and apps
-* [osx.sh script](#osxsh-script)
-    * Sets up OS X defaults geared towards developers
+* [macos.sh script](#macossh-script)
+    * Sets up MacOS defaults geared towards developers
 * [pydata.sh script](#pydatash-script)
     * Sets up python for data analysis
 * [aws.sh script](#awssh-script)
@@ -45,8 +44,6 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
     * Sets up common data stores
 * [web.sh script](#websh-script)
     * Sets up JavaScript web development
-* [android.sh script](#androidsh-script)
-    * Sets up Android development
 
 ## Section 2: General Apps and Tools
 
@@ -68,7 +65,6 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 3: Python Data Analysis
 
-* [Anaconda](#anaconda)
 * [IPython Notebook](#ipython-notebook)
 * [NumPy](#numpy)
 * [Pandas](#pandas)
@@ -133,64 +129,62 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ##### Clone the Repo
 
-    $ git clone https://github.com/donnemartin/dev-setup.git && cd dev-setup
+    $ git clone https://github.com/davidlu89/dev-setup.git && cd dev-setup
 
 ##### Run the .dots Script with Command Line Arguments
 
-**Since you probably don't want to install every section**, the `.dots` script supports command line arguments to run only specified sections.  Simply pass in the [scripts](#scripts) that you want to install.  Below are some examples.
+**Since you probably don't want to install every section**, the `.dots` script supports command line arguments to run only specified sections.  Simply pass in the [scripts](#scripts) that you want to install. Below are some examples.
 
-**For more customization, you can [clone](#clone-the-repo) or [fork](https://github.com/donnemartin/dev-setup/fork) the repo and tweak the `.dots` script and its associated components to suit your needs.**
+**For more customization, you can [clone](#clone-the-repo) or [fork](https://github.com/davidlu89/dev-setup/fork) the repo and tweak the `.dots` script and its associated components to suit your needs.**
 
 Run all:
 
     $ ./.dots all
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`:
+Run `bootstrap.sh`, `macosprep.sh`, `brew.sh`, and `macos.sh`:
 
-    $ ./.dots bootstrap osxprep brew osx
+    $ ./.dots bootstrap macosprep brew macos
 
-Run `bootstrap.sh`, `osxprep.sh`, `brew.sh`, and `osx.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
+Run `bootstrap.sh`, `macosprep.sh`, `brew.sh`, and `macos.sh`, `pydata.sh`, `aws.sh`, and `datastores.sh`:
 
-    $ ./.dots bootstrap osxprep brew osx pydata aws datastores
+    $ ./.dots bootstrap macosprep brew macos pydata aws datastores
 
 #### Running without Git
 
-    $ curl -O https://raw.githubusercontent.com/donnemartin/dev-setup/master/.dots && ./.dots [Add ARGS Here]
+    $ curl -O https://raw.githubusercontent.com/davidlu89/dev-setup/master/.dots && ./.dots [Add ARGS Here]
 
 #### Scripts
 
-* [.dots](https://github.com/donnemartin/dev-setup/blob/master/.dots)
-    * Runs specified scripts
-* [bootstrap.sh](https://github.com/donnemartin/dev-setup/blob/master/bootstrap.sh)
-    * Syncs dev-setup to your local home directory `~`
-* [osxprep.sh](https://github.com/donnemartin/dev-setup/blob/master/osxprep.sh)
-    * Updates OS X and installs Xcode command line tools
-* [brew.sh](https://github.com/donnemartin/dev-setup/blob/master/brew.sh)
-    * Installs common Homebrew formulae and apps
-* [osx.sh](https://github.com/donnemartin/dev-setup/blob/master/osx.sh)
-    * Sets up OS X defaults geared towards developers
-* [pydata.sh](https://github.com/donnemartin/dev-setup/blob/master/pydata.sh)
-    * Sets up python for data analysis
-* [aws.sh](https://github.com/donnemartin/dev-setup/blob/master/aws.sh)
-    * Sets up Spark, Hadoop MapReduce, and Amazon Web Services
-* [datastores.sh](https://github.com/donnemartin/dev-setup/blob/master/datastores.sh)
-    * Sets up common data stores
-* [web.sh](https://github.com/donnemartin/dev-setup/blob/master/web.sh)
-    * Sets up JavaScript web development
-* [android.sh](https://github.com/donnemartin/dev-setup/blob/master/android.sh)
-    * Sets up Android development
+* [.dots](https://github.com/davidlu89/dev-setup/blob/master/.dots):
+Runs specified scripts
+* [bootstrap.sh](https://github.com/davidlu89/dev-setup/blob/master/bootstrap.sh):
+Syncs dev-setup to your local home directory `~`
+* [macosprep.sh](https://github.com/davidlu89/dev-setup/blob/master/macosprep.sh):
+Updates MacOS and installs Xcode command line tools
+* [brew.sh](https://github.com/davidlu89/dev-setup/blob/master/brew.sh):
+Installs common Homebrew formulae and apps
+* [macos.sh](https://github.com/davidlu89/dev-setup/blob/master/macos.sh):
+Sets up MacOS defaults geared towards developers
+* [pydata.sh](https://github.com/davidlu89/dev-setup/blob/master/pydata.sh):
+Sets up python for data analysis
+* [aws.sh](https://github.com/davidlu89/dev-setup/blob/master/aws.sh):
+Sets up Spark, Hadoop MapReduce, and Amazon Web Services
+* [datastores.sh](https://github.com/davidlu89/dev-setup/blob/master/datastores.sh):
+Sets up common data stores
+* [web.sh](https://github.com/davidlu89/dev-setup/blob/master/web.sh):
+Sets up JavaScript web development
 
 **Notes:**
 
 * `.dots` will initially prompt you to enter your password.
 * `.dots` might ask you to re-enter your password at certain stages of the installation.
-* If OS X updates require a restart, simply run `.dots` again to resume where you left off.
+* If MacOS updates require a restart, simply run `.dots` again to resume where you left off.
 * When installing the Xcode command line tools, a dialog box will confirm installation.
     * Once Xcode is installed, follow the instructions on the terminal to continue.
 * `.dots` runs `brew.sh`, which takes awhile to complete as some formulae need to be installed from source.
 * **When `.dots` completes, be sure to restart your computer for all updates to take effect.**
 
-I encourage you to read through Section 1 so you have a better idea of what each installation script does.  The following discussions describe in greater detail what is executed when running the [.dots](https://github.com/donnemartin/dev-setup/blob/master/.dots) script.
+I encourage you to read through Section 1 so you have a better idea of what each installation script does.  The following discussions describe in greater detail what is executed when running the [.dots](https://github.com/davidlu89/dev-setup/blob/master/.dots) script.
 
 ### bootstrap.sh script
 
@@ -256,20 +250,20 @@ gpip(){
 }
 ```
 
-You could also use `~/.extra` to override settings, functions, and aliases from the dev-setup repository, although it’s probably better to [fork the dev-setup repository](https://github.com/donnemartin/dev-setup/fork).
+You could also use `~/.extra` to override settings, functions, and aliases from the dev-setup repository, although it’s probably better to [fork the dev-setup repository](https://github.com/davidlu89/dev-setup/fork).
 
-### osxprep.sh script
+### macosprep.sh script
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/xcode.jpg">
   <br/>
 </p>
 
-Run the `osxprep.sh` script:
+Run the `macosprep.sh` script:
 
-    $ ./osxprep.sh
+    $ ./macosprep.sh
 
-`osxprep.sh` will first install all updates.  If a restart is required, simply run the script again.  Once all updates are installed, `osxprep.sh` will then [Install Xcode Command Line Tools](#install-xcode-command-line-tools).
+`macosprep.sh` will first install all updates.  If a restart is required, simply run the script again.  Once all updates are installed, `macosprep.sh` will then [Install Xcode Command Line Tools](#install-xcode-command-line-tools).
 
 If you want to go the manual route, you can also install all updates by running "App Store", selecting the "Updates" icon, then updating both the OS and installed apps.
 
@@ -281,7 +275,7 @@ If you are running **OS X 10.9 Mavericks or later**, then you can install the Xc
 
     $ xcode-select --install
 
-**Note**: the `osxprep.sh` script executes this command.
+**Note**: the `macosprep.sh` script executes this command.
 
 Running the command above will display a dialog where you can either:
 * Install Xcode and the command line tools
@@ -313,20 +307,20 @@ The `brew.sh` script takes awhile to complete, as some formulae need to be insta
 
 **For your terminal customization to take full effect, quit and re-start the terminal**
 
-### osx.sh script
+### macos.sh script
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/donnemartin/dev-setup-resources/master/res/osx.png">
   <br/>
 </p>
 
-When setting up a new Mac, you may want to set OS X defaults geared towards developers.  The `osx.sh` script also configures common third-party apps such Sublime Text and Chrome.
+When setting up a new Mac, you may want to set MacOS defaults geared towards developers.  The `macos.sh` script also configures common third-party apps such Sublime Text and Chrome.
 
-**Note**: **I strongly encourage you read through the commented [osx.sh source file](https://github.com/donnemartin/dev-setup/blob/master/osx.sh) and tweak any settings based on your personal preferences.  The script defaults are intended for you to customize.**  For example, if you are not running an SSD you might want to change some of the settings listed in the SSD section.
+**Note**: **I strongly encourage you read through the commented [macos.sh source file](https://github.com/davidlu89/dev-setup/blob/master/macos.sh) and tweak any settings based on your personal preferences.  The script defaults are intended for you to customize.**  For example, if you are not running an SSD you might want to change some of the settings listed in the SSD section.
 
-Run the `osx.sh` script:
+Run the `macos.sh` script:
 
-    $ ./osx.sh
+    $ ./macos.sh
 
 **For your terminal customization to take full effect, quit and re-start the terminal.**
 
