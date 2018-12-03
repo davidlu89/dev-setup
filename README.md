@@ -55,15 +55,12 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 3: Python Data Analysis
 
-* [IPython Notebook](#ipython-notebook)
-* [NumPy](#numpy)
-* [Pandas](#pandas)
-* [Matplotlib](#matplotlib)
-* [Seaborn](#seaborn)
-* [Scikit-learn](#scikit-learn)
-* [SciPy](#scipy)
-* [Flask](#flask)
-* [Bokeh](#bokeh)
+| Scientific | Machine Learning | Visualizations | Framework |
+| ----- |-----| -----| -----|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/jupyter.png" alt="drawing" width="50"/> [Jupyter Notebook](#jupyter-notebook) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sklearn.png" alt="drawing" width="60"/> [Scikit-Learn](#sklearn)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/matplotlib.png" alt="drawing" width="50"/> [Matplotlib](#matplotlib)| <img src="https://github.com/donnemartin/dev-setup-resources/blob/master/res/flask.png" alt="drawing" width="50"/> [Flask](#flask)|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/numpy.png" alt="drawing" width="60"/> [Numpy](#numpy) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/tensorflow.png" alt="drawing" width="50"/> [Tensorflow](#tensorflow)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/seaborn.png" alt="drawing" width="50"/> [Seaborn](#seaborn)|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/scipy.png" alt="drawing" width="50"/> [Scipy](#scipy) || <img src="https://github.com/donnemartin/dev-setup-resources/blob/master/res/bokeh.png" alt="drawing" width="50"/> [Bokeh](#bokeh) |
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/pandas.png" alt="drawing" width="50"/> [Pandas](#pandas) |
 
 ## Section 4: Big Data, AWS, and Heroku
 
