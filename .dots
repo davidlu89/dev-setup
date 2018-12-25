@@ -50,7 +50,7 @@ function runDots() {
             # SSD section.
             echo ""
             echo "------------------------------"
-            echo "Setting sensible OSX defaults."
+            echo "Setting sensible MacOS defaults."
             echo "------------------------------"
             echo ""
             ./macos.sh
