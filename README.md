@@ -47,15 +47,19 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 2: General Apps and Tools
 
-|  |  |  |  |
-| ----- |-----| -----|-----|
-| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sublime.png" alt="drawing" width="50"/> [Sublime Text](#sublime-text) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/atom.png" alt="drawing" width="60"/> [Atom](#atom)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vim.png" alt="drawing" width="50"/> [Vim](#vim) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/iTerm2.png" alt="drawing" width="50"/> [iTerm2](#iterm2) |
-|<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/git.png" alt="drawing" width="50"/> [Git](#git) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/virtualbox.png" alt="drawing" width="50"/> [VirtualBox](#virtualbox) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/docker.png" alt="drawing" width="50"/> [Docker](#docker) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vagrant.png" alt="drawing" width="50"/> [Vagrant](#vagrant) |
-|<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/homebrew.png" alt="drawing" width="50"/> [Homebrew](#homebrew)| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/python.png" alt="drawing" width="50"/> [Python](#python) |<img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/ruby.png" alt="drawing" width="50"/> [Ruby](#ruby) |
+| Editor | Languages | Tools |
+| ----- |-----| -----|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sublime.png" alt="drawing" width="50"/> [Sublime Text](#sublime-text) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/python.png" alt="drawing" width="50"/> [Python](#python) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/iTerm2.png" alt="drawing" width="50"/> [iTerm2](#iterm2) |
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/atom.png" alt="drawing" width="60"/> [Atom](#atom) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/ruby.png" alt="drawing" width="50"/> [Ruby](#ruby) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/git.png" alt="drawing" width="50"/> [Git](#git) |
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vim.png" alt="drawing" width="50"/> [Vim](#vim) | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/virtualbox.png" alt="drawing" width="50"/> [VirtualBox](#virtualbox) 
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/docker.png" alt="drawing" width="50"/> [Docker](#docker) |
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/vagrant.png" alt="drawing" width="50"/> [Vagrant](#vagrant) |
+| | | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/homebrew.png" alt="drawing" width="50"/> [Homebrew](#homebrew) |
+
 
 ## Section 3: Python Data Analysis
 
-| Scientific | Machine Learning | Visualizations | Framework |
+| Library | Data Science | Visualizations | Web |
 | ----- |-----| -----| -----|
 | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/jupyter.png" alt="drawing" width="50"/> [Jupyter Notebook](#jupyter-notebook) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/sklearn.png" alt="drawing" width="60"/> [Scikit-Learn](#sklearn)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/matplotlib.png" alt="drawing" width="50"/> [Matplotlib](#matplotlib)| <img src="https://github.com/donnemartin/dev-setup-resources/blob/master/res/flask.png" alt="drawing" width="50"/> [Flask](#flask)|
 | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/numpy.png" alt="drawing" width="60"/> [Numpy](#numpy) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/tensorflow.png" alt="drawing" width="50"/> [Tensorflow](#tensorflow)  | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/seaborn.png" alt="drawing" width="50"/> [Seaborn](#seaborn)|
@@ -64,21 +68,15 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 4: Big Data, AWS, and Heroku
 
-* [Spark](#spark)
-* [MapReduce](#mapreduce)
-* [Awesome AWS](#awesome-aws-)
-* [AWS Account](#aws-account)
-* [AWS CLI](#aws-cli)
-* [SAWS](#saws)
-* [Boto](#boto)
-* [S3cmd](#s3cmd)
-* [S3DistCp](#s3distcp)
-* [S3-parallel-put](#s3-parallel-put)
-* [Redshift](#redshift)
-* [Kinesis](#kinesis)
-* [Lambda](#lambda)
-* [AWS Machine Learning](#aws-machine-learning)
-* [Heroku](#heroku)
+| AWS I | AWS II | AWS III | Frameworks |
+| ----- |-----| -----| -----|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [Awesome AWS](#awesome-aws-) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [Boto](#boto) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_redshift.png" alt="drawing" width="50"/> [Redshift](#redshift) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/spark.png" alt="drawing" width="50"/> [Spark](#spark) |
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [AWS Account](#aws-account) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3cmd.png" alt="drawing" width="50"/> [S3cmd](#s3cmd) |  <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_kinesis" alt="drawing" width="50"/> [Kinesis](#kinesis) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/mrjob.png" alt="drawing" width="50"/> [MapReduce](#mapreduce) |
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [AWS CLI](#aws-cli) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3distcp" alt="drawing" width="50"/> [S3DistCp](#s3distcp) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_lambda" alt="drawing" width="50"/> [Lambda](#lambda) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/heroku.png" alt="drawing" width="50"/> [Heroku](#heroku) 
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="60"/> [SAWS](#saws) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3s3-parallel-put.png" alt="drawing" width="50"/> [S3-parallel-put](#s3-parallel-put) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_ml.png" alt="drawing" width="60"/> [AWS Machine Learning](#aws-machine-learning) | |
 
 ## Section 5: Data Stores
 
