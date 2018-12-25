@@ -68,21 +68,15 @@ Setting up a new machine for developers can be an **ad-hoc, manual, and time-con
 
 ## Section 4: Big Data, AWS, and Heroku
 
-* [Spark](#spark)
-* [MapReduce](#mapreduce)
-* [Awesome AWS](#awesome-aws-)
-* [AWS Account](#aws-account)
-* [AWS CLI](#aws-cli)
-* [SAWS](#saws)
-* [Boto](#boto)
-* [S3cmd](#s3cmd)
-* [S3DistCp](#s3distcp)
-* [S3-parallel-put](#s3-parallel-put)
-* [Redshift](#redshift)
-* [Kinesis](#kinesis)
-* [Lambda](#lambda)
-* [AWS Machine Learning](#aws-machine-learning)
-* [Heroku](#heroku)
+| AWS I | AWS II | AWS III | Frameworks |
+| ----- |-----| -----| -----|
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [Awesome AWS](#awesome-aws-) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [Boto](#boto) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_redshift.png" alt="drawing" width="50"/> [Redshift](#redshift) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/spark.png" alt="drawing" width="50"/> [Spark](#spark) |
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [AWS Account](#aws-account) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3cmd.png" alt="drawing" width="50"/> [S3cmd](#s3cmd) |  <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_kinesis" alt="drawing" width="50"/> [Kinesis](#kinesis) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/mrjob.png" alt="drawing" width="50"/> [MapReduce](#mapreduce) |
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="50"/> [AWS CLI](#aws-cli) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3distcp" alt="drawing" width="50"/> [S3DistCp](#s3distcp) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_lambda" alt="drawing" width="50"/> [Lambda](#lambda) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/heroku.png" alt="drawing" width="50"/> [Heroku](#heroku) 
+
+| <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws.png" alt="drawing" width="60"/> [SAWS](#saws) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/s3s3-parallel-put.png" alt="drawing" width="50"/> [S3-parallel-put](#s3-parallel-put) | <img src="https://github.com/davidlu89/dev-setup/blob/dlu-setup/resources/aws_ml.png" alt="drawing" width="60"/> [AWS Machine Learning](#aws-machine-learning) | |
 
 ## Section 5: Data Stores
 
